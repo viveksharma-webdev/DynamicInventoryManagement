@@ -112,13 +112,13 @@ const InventoryPage = () => {
               <td className="text-center border-1 border-[#ddd] p-[20px]">
                 <button
                   onClick={() => handleEditItem(item.id)}
-                  style={{ marginRight: "10px", padding: "5px 10px" }}
+                  className="px-5 py-3 mr-[10px]"
                 >
                   Edit
                 </button>
                 <button
                   onClick={() => handleDeleteItem(item.id)}
-                  style={{ padding: "5px 10px" }}
+                  className="px-5 py-3"
                 >
                   Delete
                 </button>
